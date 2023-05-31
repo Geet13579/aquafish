@@ -1,11 +1,14 @@
 /*  color: */
-
+*{
+  font-family: 'Crimson Pro', serif;
+}
 .Header_Main{
     width: 100%;
     height: 100px;
-    /* background:linear-gradient(90deg, #31708E 0%, #5085A5 30%, #8fc1E3 65%, #8fc1E1 100%);
-     */
-     background-image: linear-gradient(#31708E, #323A45);
+    /* background:linear-gradient(90deg, #14b4b4 0%, #14c4bc 30%, #14d4c4 65%, #14bcac 100%);     */
+     /* background-image: linear-gradient(#14b4b4, #14c4bc); */
+     background-image: linear-gradient(#42c4dc, #3c3936);
+ 
      background-color: #537791;
     display: flex;
 }
@@ -45,8 +48,11 @@
 {
     display: inline-block;
     position: relative;
-    color:#16C79A;
+    color:#ffff;
     text-decoration: none;
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    /* font-weight: bolder; */
   }
   
   .hover_style:after
@@ -58,7 +64,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color:#E2D784;
+    background-color:#F29053;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -69,3 +75,40 @@
     transform-origin: bottom left;
   }
 
+  .menuStyle{
+    width: 30px;
+    cursor: pointer;
+    transition: margin-top .2s;
+  }
+
+  .menuStyle:hover{
+    margin-top: -10px;
+   
+  }
+
+  .popuMenu{
+    width:300px;
+    height:300px;
+    background-color: #31708E;
+    position: fixed;
+    z-index: 1000;
+    margin-top: 20;
+    right: 0;
+    transition:  all 1s ease-in-out;
+
+  }
+
+  .closeButton{
+    margin-right: 10px;
+    text-align: end;
+    margin-top: 10px;
+    cursor: pointer;
+   
+
+  }
+  @media screen and (max-width: 700px) {
+    .hover_style{
+        font-size: 15px;
+       
+    }
+ }
