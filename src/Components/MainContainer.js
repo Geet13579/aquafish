@@ -52,14 +52,19 @@ function MainContainer() {
 
         < div >
 
-            <Header />
-            <div className='Conatiner' style={{ backgroundImage: "linear-gradient( #F29053,#42c4dc)" }}>
 
+            <div className='Conatiner' >
 
+                <Header />
                 <div className='frontContainer'>
-                    <div className='image_container'>
-                        <div className='img_animate' style={{ backgroundImage: `url(${fishMain})`, height: "100%", width: "100%", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>  </div>
-                        {/* <div className='circleDiv x1'>
+
+                    <div className="content">
+                        <h2>Aquarium</h2>
+                        <h2>Aquarium</h2>
+                    </div>
+                    {/* <div className='image_container'> */}
+                    {/* <div className='img_animate' style={{ backgroundImage: `url(${fishMain})`, height: "100%", width: "100%", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>  </div> */}
+                    {/* <div className='circleDiv x1'>
                         1
                     </div>
                     <div className='circleDiv x2'>
@@ -79,8 +84,8 @@ function MainContainer() {
                     </div> */}
 
 
-                        {/* <div style={{ backgroundImage: `url(${fishMain})`, height: "100%", width: "100%", backgroundSize: "contain", backgroundRepeat: "no-repeat" }}>  </div> */}
-                    </div>
+                    {/* <div style={{ backgroundImage: `url(${fishMain})`, height: "100%", width: "100%", backgroundSize: "contain", backgroundRepeat: "no-repeat" }}>  </div> */}
+                    {/* </div> */}
 
                     {/* <Typewriter
                         options={{
@@ -108,14 +113,14 @@ function MainContainer() {
 
                         }}
                     /> */}
-                    <div className='textContainer'>
+                    {/* <div className='textContainer'> */}
 
 
-                        <div className='textDiv'>
-                            {/* <div className="waviy">
+                    {/* <div className='textDiv'> */}
+                    {/* <div className="waviy">
                                 <span style={{ color: "rgb(225 217 212)", textShadow: "2px 2px #d96d13c2", fontSize: "40px" }}>Aquarium</span>
                             </div> */}
-                            <div className="content">
+                    {/* <div className="content">
                                 <h2>Aquarium</h2>
                                 <h2>Aquarium</h2>
                             </div>
@@ -125,12 +130,13 @@ function MainContainer() {
                             <p>a little smidgen of you being the jellyfish,
                             </p>
                             <p>and the tide's just gently helping you along.</p>
-                        </div>
+                        </div> */}
 
 
-                    </div>
+                    {/* </div> */}
 
                 </div>
+
 
 
                 <div className='main_card_container'>
