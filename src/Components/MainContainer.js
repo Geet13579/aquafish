@@ -58,69 +58,25 @@ function MainContainer() {
                 <Header />
                 <div className='frontContainer'>
 
-                    <div className="content">
-                        <h2>Aquarium</h2>
-                        <h2>Aquarium</h2>
-                    </div>
+
                     {/* <div className='image_container'> */}
                     {/* <div className='img_animate' style={{ backgroundImage: `url(${fishMain})`, height: "100%", width: "100%", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>  </div> */}
-                    {/* <div className='circleDiv x1'>
-                        1
-                    </div>
-                    <div className='circleDiv x2'>
-                        2
-                    </div>
-                    <div className='circleDiv x3'>
-                        3
-                    </div>
-                    <div className='circleDiv x4'>
-                        4
-                    </div>
-                    <div className='circleDiv x5'>
-                        5
-                    </div>
-                    <div className='circleDiv x6'>
-                        6
-                    </div> */}
+
+                </div>
 
 
-                    {/* <div style={{ backgroundImage: `url(${fishMain})`, height: "100%", width: "100%", backgroundSize: "contain", backgroundRepeat: "no-repeat" }}>  </div> */}
-                    {/* </div> */}
-
-                    {/* <Typewriter
-                        options={{
-
-                            autoStart: true,
-                            loop: true,
-                        }}
-                        onInit={(typewriter) => {
-                            typewriter.pauseFor(1000)
-                                .typeString('<h1 style="color: #DC2D55; font: normal normal 700 35px Poppins";>The all new way of</h1>')
+                {/* <div style={{ backgroundImage: `url(${fishMain})`, height: "100%", width: "100%", backgroundSize: "contain", backgroundRepeat: "no-repeat" }}>  </div> */}
+                {/* </div> */}
 
 
-                                .typeString('<h1 style="color:#141923 ;font: normal normal 700 40px Poppins";>Tiffin Delivery... </h1>')
-                                //.typeString('<h1 style="color:#DC2D55;font: normal normal 700 50px/30px Poppins";>...<span style="color:black">|</span></h1>')
-
-                                // .deleteAll()
-                                .typeString('<h1 style="color:#DC2D55;font: normal normal 700 35px Poppins";>Reimagined avatar<h1>')
-                                .typeString('<h1 style="color:#DC2D55;font: normal normal 700 35px Poppins";> of <span style="color:#141923 ;font: normal normal 800 35px Poppins";>combos</span> with chef<h1>')
-                                .typeString('<h1 style="color:#DC2D55;font: normal normal 700 35px Poppins";>Curated menus.<h1>')
-                                .deleteAll()
-                                // .typeString('<h1 style="color: #DC2D55; font: normal normal 700 35px Poppins";>Curated meals that</h1>')
-                                // .typeString('<h1 style="color: #DC2D55; font: normal normal 700 35px Poppins";>fits in all pocket</h1>')
-                                // .typeString('<h1 style="color:#141923 ;font: normal normal 700 35px Poppins";>coming soon...</h1>')
-                                .start();
-
-                        }}
-                    /> */}
-                    {/* <div className='textContainer'> */}
+                {/* <div className='textContainer'> */}
 
 
-                    {/* <div className='textDiv'> */}
-                    {/* <div className="waviy">
+                {/* <div className='textDiv'> */}
+                {/* <div className="waviy">
                                 <span style={{ color: "rgb(225 217 212)", textShadow: "2px 2px #d96d13c2", fontSize: "40px" }}>Aquarium</span>
                             </div> */}
-                    {/* <div className="content">
+                {/* <div className="content">
                                 <h2>Aquarium</h2>
                                 <h2>Aquarium</h2>
                             </div>
@@ -133,9 +89,66 @@ function MainContainer() {
                         </div> */}
 
 
-                    {/* </div> */}
+                {/* </div> */}
+                {/* <div className="content">
+                    <h2>Aquarium</h2>
+                    <h2>Aquarium</h2>
+                </div> */}
+                {/* <h1 >AQUARIUM</h1> */}
+                <div style={{ position: "absolute", top: "33%", marginLeft: "30%", fontSize: "90px", color: "white" }} className="wrapper three">
+                    <div>
+                        <h3>AQUARIUM</h3>
+                    </div>
 
                 </div>
+                <div className='smallFish'></div>
+                <div className='smallFish1'></div>
+                <div className='card_text'>
+
+                    <Typewriter
+                        options={{
+
+                            autoStart: true,
+                            loop: true,
+                        }}
+                        onInit={(typewriter) => {
+                            typewriter.pauseFor(1000)
+                                .typeString('<h1 style="color: #ffff; font: normal normal 600 20px Poppins";>An aquarium is really just </h1>')
+
+
+                                .typeString('<h1 style="color:#399d9b ;font: normal normal 600 20px Poppins";>a spaceship for fish... </h1>')
+                                //.typeString('<h1 style="color:#ffff;font: normal normal 600 50px/30px Poppins";>...<span style="color:black">|</span></h1>')
+
+                                // .deleteAll()
+                                .typeString('<h1 style="color:#ffff;font: normal normal 600 20px Poppins";>Aquarium fish make us realize <h1>')
+                                .typeString('<h1 style="color:#ffff;font: normal normal 600 20px Poppins";> how <span style="color:#399d9b ;font: normal normal 600 20px Poppins";>beautiful </span> silence is<h1>')
+                                .typeString('<h1 style="color: #ffff; font: normal normal 600 20px Poppins";>a little smidgen of you being the jellyfish</h1>')
+                                .deleteAll()
+                                // .typeString('<h1 style="color: #ffff; font: normal normal 600 30px Poppins";>Curated meals that</h1>')
+                                // .typeString('<h1 style="color: #ffff; font: normal normal 600 30px Poppins";>fits in all pocket</h1>')
+                                // .typeString('<h1 style="color:#399d9b ;font: normal normal 600 30px Poppins";>coming soon...</h1>')
+                                .start();
+
+                        }}
+                    />
+                </div>
+                <div className='card_text'></div>
+
+                <div className="wrapper">
+                    <ul className="bg-bubbles">
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                    </ul>
+                </div>
+
 
 
 
