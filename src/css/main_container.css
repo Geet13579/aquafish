@@ -281,7 +281,7 @@ margin-bottom: 40px;
 .description_card1
  {
   width: 25%;
-    background-color: blueviolet;;
+    /* background-color: blueviolet;; */
     border:1px solid white;
 
 }
@@ -298,7 +298,7 @@ margin-bottom: 40px;
 
 .description_card_text{
 
-  background-color: blue;
+  /* background-color: blue; */
   height: 50%;
 }
 

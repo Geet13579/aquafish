@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 import fish_img from '../Images/fish_img.webp'
 
-import fish1 from '../Images/fish1.webp'
+import fish1 from '../Images/betta_fish.png'
 import fishMain from '../Images/fish_main2.jpg';
 import Typewriter from 'typewriter-effect';
 
@@ -161,9 +161,9 @@ function MainContainer() {
 
                                 <div className='description_card_img'>
                                     <div className='img1'>
-
+                                        <div style={{ backgroundImage: `url(${fish1})`, height: "100%", borderRadius: "50%", backgroundRepeat: "no-repeat", backgroundSize: "contain" }}></div>
                                     </div>
-                                    {/* <div style={{ backgroundImage: `url(${fish1})`, height: "100%",borderRadius:"50%", backgroundRepeat: "no-repeat", backgroundSize: "contain" }}></div> */}
+
                                 </div>
                                 <div className='description_card_text'>
 
@@ -172,17 +172,7 @@ function MainContainer() {
                             <div className='description_card1'>
                                 <div className='description_card_img'>
                                     <div className='img1'>
-
-                                    </div>
-                                </div>
-                                <div className='description_card_text'>
-
-                                </div>
-                            </div>
-                            <div className='description_card1'>
-                                <div className='description_card_img'>
-                                    <div className='img1'>
-
+                                        <div style={{ backgroundImage: `url(${fish1})`, height: "100%", borderRadius: "50%", backgroundRepeat: "no-repeat", backgroundSize: "contain" }}></div>
                                     </div>
                                 </div>
                                 <div className='description_card_text'>
@@ -192,7 +182,17 @@ function MainContainer() {
                             <div className='description_card1'>
                                 <div className='description_card_img'>
                                     <div className='img1'>
+                                        <div style={{ backgroundImage: `url(${fish1})`, height: "100%", borderRadius: "50%", backgroundRepeat: "no-repeat", backgroundSize: "contain" }}></div>
+                                    </div>
+                                </div>
+                                <div className='description_card_text'>
 
+                                </div>
+                            </div>
+                            <div className='description_card1'>
+                                <div className='description_card_img'>
+                                    <div className='img1'>
+                                        <div style={{ backgroundImage: `url(${fish1})`, height: "100%", borderRadius: "50%", backgroundRepeat: "no-repeat", backgroundSize: "contain" }}></div>
                                     </div>
                                 </div>
                                 <div className='description_card_text'>
